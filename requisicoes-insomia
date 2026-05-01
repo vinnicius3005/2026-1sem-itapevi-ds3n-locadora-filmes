@@ -1,0 +1,53 @@
+type: collection.insomnia.rest/5.0
+schema_version: "5.1"
+name: Scratch Pad
+meta:
+  id: wrk_scratchpad
+  created: 1764769685260
+  modified: 1764769685260
+  description: ""
+collection:
+  - name: locadora
+    meta:
+      id: fld_2f4b10fe325445caa74c7350a9786e60
+      created: 1777595140259
+      modified: 1777595242470
+      sortKey: -1777595140259
+      description: ""
+    children:
+      - url: localhost:3000/test
+        name: teste conexão
+        meta:
+          id: req_0dd8d6b3a7504717ac3a42a373bb58a6
+          created: 1777595246689
+          modified: 1777595457346
+          isPrivate: false
+          description: ""
+          sortKey: -1777595246689
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/12.1.0
+            description: ""
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1777595094791
+    modified: 1777595094791
+environments:
+  name: Base Environment
+  meta:
+    id: env_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1777595094784
+    modified: 1777595094784
+    isPrivate: false
